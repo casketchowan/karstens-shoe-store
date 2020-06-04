@@ -2,13 +2,12 @@ import React from 'react';
 
 function AboutPage() {
 	return (
-		<>
-			<h1>About ABC Mart</h1>
+		<div style={{"color": "white"}}>
+			<h1>About Karstens Bookstore</h1>
 			<p>
-				This is the website for ABC Mart. We used React! Did you know that ABC
-				Mart has achieve over 75% Market penetration in every industry?
+				This is the website for Karstens Bookstore. We used React! We have no shoes yet!
 			</p>
-		</>
+		</div>
 	);
 }
 

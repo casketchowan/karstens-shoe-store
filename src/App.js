@@ -2,9 +2,10 @@ import React from 'react';
 import HomePage from './components/home/homePage';
 import './App.css';
 import AboutPage from './components/about/aboutPage';
-import PaperPage from './components/paper/paperPage';
+import ShoePage from './components/shoes/shoePage';
 import { Switch, Route } from 'react-router-dom';
 import Navbar from './components/common/navbar';
+import CreateShoes from './components/shoes/createShoes';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Navbar />
       <Switch>
         <Route path='/about' component={AboutPage} />
-        <Route path='/papers' component={PaperPage} />
+        <Route path='/shoes' component={ShoePage} />
+        <Route path='/shoes/create' component={CreateShoes} />
         <Route path='/' component={HomePage} />
       </Switch>
     </div>
